@@ -1,6 +1,6 @@
 from display import *
 from draw import *
-from parser import *
+from parserp import *
 from matrix import *
 import math
 
@@ -9,4 +9,4 @@ color = [ 0, 255, 0 ]
 edges = []
 transform = new_matrix()
 
-parse_file( 'script', edges, transform, screen, color )
+parse_file( 'dwscript2', edges, transform, screen, color )
